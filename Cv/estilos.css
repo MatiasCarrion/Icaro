@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blanchedalmond;
+}
+#titulo {
+
+    font-style: normal;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+#subtitulo {
+    
+    font-style: normal;
+    font-size: 34px;
+    text-align: center;
+}
+
+#perfil {
+
+    font-size: 18px;
+    font-style: italic;
+    
+}
+
+.subtitulos {
+
+    font-style: normal;
+    font-size: 28px;
+
+}
+
+#foot {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: right;
+}

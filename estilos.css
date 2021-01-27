@@ -1,0 +1,23 @@
+body {
+    background-color: bisque;
+}
+h1 {
+    font-size: 45px;
+    color:crimson;
+    font-family: 'Times New Roman', Times, serif;}
+
+p{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenido {
+    color: darkblue;
+    font-size: 24px;
+}
+
+#subtitulo {
+    color:darkorchid;
+    font-size: 60px;
+    background-color: darkslategray;
+}

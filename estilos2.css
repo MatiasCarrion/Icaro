@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: gray;
+    font-family: arial, sans-serif;
+}
+
+#container {
+    width: 1200px;
+    margin: 0px auto;
+    border: 1px solid rgb(0,0,0);
+}
+
+.article {
+
+}

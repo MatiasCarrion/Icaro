@@ -1,0 +1,16 @@
+form {
+
+    background-color:skyblue;
+    border-radius: 5px;
+    color: seashell;
+    font-size: 12px;
+    padding: 20px;
+    margin: 0 auto; /* este lo centra*/
+    width: 300px;
+}
+input, textarea {
+
+    border = 0;
+    outline: none;
+    width: 280px;
+}
