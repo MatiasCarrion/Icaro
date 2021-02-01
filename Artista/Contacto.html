@@ -11,7 +11,8 @@
     <h1 style="color:black;font-size: 40px; text-align: left;margin: 10px;">
         Contanos un poco más de vos...
     </h1>
-    <form action="gracias.html" target="_blank">
+    <!--<form action="gracias.html" target="_blank">-->
+        <form action ="#" onsubmit="javascript:alert('Gracias por responder')";>
         <fieldset>
             <legend>Tus datos</legend>
             <p>
@@ -70,7 +71,10 @@
 
                 <label>
                     Dejanos algún mensaje...
-                    <input type="text" name="mensaje" placeholder="Este es un mensaje de muestra...">
+                    <textarea name="mensaje" maxlength="100" placeholder="Este es un mensaje de muestra...">
+
+
+                    </textarea>
 
                 </label>
             </p>
