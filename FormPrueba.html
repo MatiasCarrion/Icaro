@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="resultado.html" target="_blank">
+        <fieldset>
+            <legend>Información personal</legend>
+            <p><label>
+                    Genero: <br>
+                    <select name="genero">
+
+                        <option>Masculino</option>
+                        <option>Femenino</option>
+                        <option>No-binario</option>
+                    </select>
+                </label>
+            </p>
+
+            <p><label></label>
+                Ingrese su nombre completo: <input text="text" name="nombrecompleto" placeholder="Nombre Apellido" maxlength="30" required> 
+                </label>
+            </p>
+
+
+            <p><label></label>
+                Deja tu mensaje: <br>
+                <textarea name="mensaje"></textarea>
+                </label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Intereses</legend>
+            <p><label></label>
+                seleccion de preferencias: <br>
+                <input type="checkbox" name="series">Series<br>
+                <input type="checkbox" name="peli">peliculas<br>
+                <input type="checkbox" name="corto">cortos<br>
+                </label>
+            </p>
+
+
+            <p><label></label>
+                ¿Cuantas horas pasas frente al tele?: <br>
+                <input type="radio" name="series" value="1">1 hora<br>
+                <input type="radio" name="series" value="2">2 horas<br>
+                <input type="radio" name="series" value="Más de dos horas">Más de dos horas<br>
+                </label>
+            </p>
+
+            <p><label></label>
+                Selecciona tu pais: <br>
+                <select multiple name="pais">
+                    <option value="argentina">Argentina</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="chile">Chile</option>
+                </select>
+                </label>
+            </p>
+
+            <p><label>
+
+                Texto de solo lectura <input text="text" value="no copiar" disabled>
+                Texto de solo lectura 2<input text="text" value="deja copiar" readonly>
+            </label>
+
+
+            </p>
+
+        </fieldset>
+
+
+
+
+        <p><input type="submit" value="Enviar Formulario"></p>
+        <p><input type="reset" value="Reiniciar formulario"></p>
+
+    </form>
+</body>
+
+</html>

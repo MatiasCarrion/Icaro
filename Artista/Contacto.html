@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body
+    style="background-image: url('https://www.wallpapertip.com/wmimgs/20-201232_download-wallpaper-gustavo-cerati-wallpaper-hd.jpg');">
+    <h1 style="color:black;font-size: 40px; text-align: left;margin: 10px;">
+        Contanos un poco más de vos...
+    </h1>
+    <form action="gracias.html" target="_blank">
+        <fieldset>
+            <legend>Tus datos</legend>
+            <p>
+                <label>
+                    Nombre y Apellido
+                    <input text="text" name="nombre" maxlength="50" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Teléfono
+                    <input text="number" name="telefono" maxlength="15" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    E-Mail
+                    <input text="text" name="email" maxlength="50" required>
+                </label>
+            </p>
+
+
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend> Que es lo que más te gusta </legend>
+            <p>
+
+                <label>
+                    Albums Favoritos <br>
+                    <input type="checkbox" name="Amor Amarillo">Amor Amarillo<br>
+                    <input type="checkbox" name="Bocanada">Bocanada<br>
+                    <input type="checkbox" name="Siempre es Hoy">Siempre es Hoy<br>
+                    <input type="checkbox" name="Ahi Vamos">Ahí Vamos<br>
+                    <input type="checkbox" name="Fuerza Natural">Fuerza Natural<br>
+
+                </label>
+            </p>
+            <br>
+            <p>
+
+                <label>
+                    Cación Favorita
+                    <select name="album">
+                        <option>Puente</option>
+                        <option>Fuerza Natural</option>
+                        <option>Lago en el cielo</option>
+                        <option>Beautiful</option>
+                        <option>Nací para esto</option>
+                    </select>
+
+                </label>
+            </p>
+
+            <p>
+
+                <label>
+                    Dejanos algún mensaje...
+                    <input type="text" name="mensaje" placeholder="Este es un mensaje de muestra...">
+
+                </label>
+            </p>
+        </fieldset>
+
+        <p><input type="submit" value="Enviar" style="font-size: 25px;"></p>
+        <p></p><input type="reset" value="Reiniciar Formulario" style="font-size: 18px;"></p>
+    </form>
+</body>
+
+</html>
