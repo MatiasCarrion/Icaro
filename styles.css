@@ -1,0 +1,78 @@
+/* selector universal */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+/* selector de etiqueta */
+body {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+/* selector de clases*/
+.center {
+
+    font-size: 2rem;
+    color:red;
+    text-align: center;
+}
+
+.left {
+
+    font-size: 3em;
+    text-align: left;
+    color:blue;
+}
+
+.right {
+
+    font-size: 20px;
+    text-align: right;
+    color:green;
+}
+
+p{
+    margin-bottom: 20px;
+
+}
+
+/* selector de hijos directos */
+
+p > span {
+color: lightblue;
+}
+
+/* selector de hermanos */
+
+#first-span ~ span {
+
+    font-size: 10px;
+}
+
+.box {
+
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: royalblue;
+}
+
+.transparent-box {
+    background-color: rgba(65, 105, 225, 0.3);
+}
+
+.border-radius {
+    border-radius: 20px;
+}
+
+.circle {
+    border-radius: 50%;
+}
